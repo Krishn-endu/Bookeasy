@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <h1>BookEasy - event booking platform</h1>
+            <p class="welcome-text">Welcome back! Please login to your account</p>
+        </div>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit">Login</button>
+                <div id="message" class="message"></div>
+            </form>
+        </div>
+    </div>
+    <div class="background-animation"></div>
+    <script src="login.js"></script>
+</body>
+</html>
